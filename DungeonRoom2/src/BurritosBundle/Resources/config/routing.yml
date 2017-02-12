@@ -1,0 +1,11 @@
+burritos_homepage:
+    path:     /index
+    defaults: { _controller: BurritosBundle:Default:index }
+
+burritos_nomHero:
+    path:     /nomHero
+    defaults: { _controller: BurritosBundle:NomHero:nomHero }
+
+burritos_donjon:
+    path:     /donjon
+    defaults: { _controller: BurritosBundle:Donjon:donjon }
